@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+import Body from './Components/Body';
 import crescentlogo from './crescent_logo_v1.png';
 import './App.css';
 
@@ -26,7 +27,7 @@ function App() {
             <p>Train, Learn and Strengthen.</p>
           </div>
           <div className="col-9">
-            
+            <Body />
           </div>
         </div>
         <footer className="App-footer">
