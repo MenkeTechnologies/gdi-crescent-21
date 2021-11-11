@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navigation from './Navigation';
+import crescentlogo from './crescent_logo_v1.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <div className="row p-5">
+            <div className="col-sm-3">
+              <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo" />
+            </div>
+            <div className="col-sm-9">
+              <Navigation />
+            </div>
+          </div>
+        </header>
+        <div className="row">
+          <div className="col-3">
+            <h2>No muscle left behind.</h2>
+            <p>You have one body.</p>
+            <p>Crescent is for every body.</p>
+            <p>Train, Learn and Strengthen.</p>
+          </div>
+          <div className="col-9">
+            
+          </div>
+        </div>
+        <footer className="App-footer">
+
+        </footer>
+      </div>
     </div>
   );
 }

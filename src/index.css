@@ -1,10 +1,18 @@
+:root {
+  --white-branding-color: #FFFFFF;
+  --light-branding-color: #E0F6FF;
+  --bright-branding-color: #FFE638;
+  --medium-branding-color: #046B99;
+  --dark-branding-color: #4C5559;
+  --black--branding-color: #000000;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white-branding-color);
 }
 
 code {
