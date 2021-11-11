@@ -17,7 +17,7 @@ export default function BodyParts() {
   return (
     <Model
       data={data}
-      style={{ width: '20rem', padding: '5rem' }}
+      style={{ width: '30rem' }}
       onClick={handleClick}
     />
   );
