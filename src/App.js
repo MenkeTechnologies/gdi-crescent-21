@@ -1,7 +1,8 @@
 import React from 'react';
-import Navigation from './Navigation';
+import Navbar from './Components/Navbar';
 import crescentlogo from './crescent_logo_v1.png';
 import './App.css';
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
               <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo" />
             </div>
             <div className="col-sm-9">
-              <Navigation />
+              <Navbar />
             </div>
           </div>
         </header>
