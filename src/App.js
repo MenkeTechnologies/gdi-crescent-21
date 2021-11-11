@@ -14,7 +14,7 @@ function App() {
             <div className="col-sm-3">
               <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo" />
             </div>
-            <div className="col-sm-9">
+            <div className="col-sm-9 navigation">
               <Navbar />
             </div>
           </div>
