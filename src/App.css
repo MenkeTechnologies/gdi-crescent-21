@@ -67,7 +67,8 @@ body{
 }
 
 .crescent-logo {
-  max-width: 70%;
+  width: 100%;
+  padding: 0 2em 5em 2em;
   height: auto;
   float: left;
 }
@@ -76,15 +77,23 @@ h2 {
   color: var(--medium-branding-color);
   font-size: 3em;
   text-transform: uppercase;
-  padding: 1em 0;
+  padding: 0.6em 0;
 }
 
-.Body {
-  font-size: large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 50px;
+ul.motto {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 1.3em;
+  padding-top: 1em;
+}
+
+.ClickableBody {
+  display: flex;
+  justify-content: center;
+  border: solid 2px var(--dark-branding-color);
+  padding: 5em;
+  margin: 5em 3em 5em 3em;
+  border-radius: 4px;
 }
 
 

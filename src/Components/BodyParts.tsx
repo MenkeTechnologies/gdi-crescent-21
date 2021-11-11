@@ -15,10 +15,12 @@ export default function BodyParts() {
   }, [data]);
 
   return (
-    <Model
-      data={data}
-      style={{ width: '30rem' }}
-      onClick={handleClick}
-    />
+    <div className='ClickableBody'>
+      <Model
+        data={data}
+        style={{ width: '30rem' }}
+        onClick={handleClick}
+      />
+    </div>
   );
 }
