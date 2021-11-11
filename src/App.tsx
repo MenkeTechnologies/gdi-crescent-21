@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+import BodyParts from './Components/BodyParts';
 import Body from './Components/Body';
 import crescentlogo from './crescent_logo_v1.png';
 import './App.css';
+
 
 
 function App() {
@@ -10,12 +12,13 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
+          <Navbar />
+          <Body />
           <div className="row p-5">
             <div className="col-sm-3">
               <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo" />
             </div>
-            <div className="col-sm-9 navigation">
-              <Navbar />
+            <div className="col-sm-9">
             </div>
           </div>
         </header>
@@ -27,11 +30,10 @@ function App() {
             <p>Train, Learn and Strengthen.</p>
           </div>
           <div className="col-9">
-            <Body />
+          <BodyParts/>
           </div>
         </div>
         <footer className="App-footer">
-
         </footer>
       </div>
     </div>
