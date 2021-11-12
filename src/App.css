@@ -9,7 +9,7 @@ body{
 }
 
 .leftSide, .rightSide {
-  background-color: var(--medium-branding-color);
+  background-color: var(--dark-branding-color);
 }
 
 .Navbar{
@@ -32,10 +32,18 @@ body{
 
 .Navbar .leftSide .links a {
   text-decoration: none;
-  color: var(--dark-branding-color);
+  color: var(--medium-branding-color);
   font-size: 20px;
   margin: 0 3em;
-  padding: 15px;
+  font-weight: bold;
+}
+
+ul.navbar-nav.links {
+  padding-bottom: 0;
+}
+
+.Navbar .leftSide .links a:hover {
+  color: var(--bright-branding-color);
 }
 
 /*@media (max-width: 767px) {
@@ -142,6 +150,7 @@ svg polygon:hover { fill: var(--bright-branding-color) !important; }
   width: 100%;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .button:hover {
