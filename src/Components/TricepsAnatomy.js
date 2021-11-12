@@ -8,7 +8,7 @@ export default function TricepsAnatomy () {
         <div className="TricepsAnatomy">
             <div className="container">
                 <div className="row pt-5">
-                    <div className="col-sm-7">
+                    <div className="col-md-7">
                         <h1>YOUR <br /> TRICEPS</h1>
                         <h2>ANATOMY🧠</h2>
                         <h4>[triceps-brachii]</h4>
@@ -26,7 +26,8 @@ export default function TricepsAnatomy () {
                         <h2>FUN FACT</h2>
                         <p>More than 90% of a horse's total muscle weight is located at their triceps.</p>
                     </div>
-                    <div className="col-sm-5">
+                    
+                    <div className="col-md-5">
                         <a href="/index.html"><button type="button" className="btn button p-3">⬅ Back to Whole Body</button></a>
                         <img src={triceps} alt="A skeleton from the back with tricep muscles highlighted." className="img-fluid"></img>
                     </div>
