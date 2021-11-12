@@ -1,0 +1,9 @@
+h1 {
+ color: var(--dark-branding-color);
+}
+
+a.gif {
+    color: var(--light-branding-color);
+    text-decoration: none;
+    font-size: small;
+}
