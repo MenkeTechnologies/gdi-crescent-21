@@ -83,13 +83,14 @@ body{
   width: 60%;
   height: auto;
   float: left;
+  margin: 2em;
 }
 
 h2.motto {
   color: var(--dark-branding-color);
   font-size: 3em;
   text-transform: uppercase;
-  padding: 3em 0 2em;
+  padding: 2em 0 2em;
 }
 
 ul.motto {

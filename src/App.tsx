@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
 import BodyParts from './Components/BodyParts';
-import crescentlogo from './crescent_logo_v1.png';
+import crescentlogo from './crescentlogo_color_FINAL.png';
 import './App.css';
 
 
