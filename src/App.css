@@ -126,7 +126,7 @@ ul.motto {
     margin-top: 5em;
   }
   li.nav-item {
-    background-color: var(--medium-branding-color);
+    background-color: var(--dark-branding-color);
   }
   ul.motto {
     padding: 0 0 3em 0;

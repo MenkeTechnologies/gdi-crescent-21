@@ -141,3 +141,12 @@ footer  a {
   width: 60%;
   padding: 2em;
 }
+
+@media (max-width: 768px) {
+  li.nav-item {
+    background-color: var(--dark-branding-color);
+  }
+  .top{
+    margin-top: 150px;
+  }
+}
