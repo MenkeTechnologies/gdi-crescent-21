@@ -127,6 +127,12 @@ ul {
   padding-bottom: 2em;
 }
 
+svg polygon {
+  fill: var(--black-branding-color) !important;
+}
+
+svg polygon:hover { fill: var(--medium-branding-color) !important; }
+
 
 /* .App-logo {
   height: 40vmin;

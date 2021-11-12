@@ -12,7 +12,7 @@ function App() {
       <div className="container">
           <div className="row pt-5">
             <div className="col-md-3">
-              <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo logo" />
+              <a href="index.html"><img src={crescentlogo} alt="Crescent Logo" className="crescent-logo logo" /></a>
             </div>
             <div className="col-md-9">
             <Navbar />
