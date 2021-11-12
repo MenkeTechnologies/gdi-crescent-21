@@ -85,7 +85,7 @@ body{
   float: left;
 }
 
-h2 {
+h2.motto {
   color: var(--medium-branding-color);
   font-size: 3em;
   text-transform: uppercase;
@@ -110,6 +110,16 @@ ul.motto {
   .clickableBody {
     padding: 5em;
     margin: 6em 4em 6em 4em;
+  }
+  h2.motto {
+    padding-top: 0;
+    margin-top: 5em;
+  }
+  li.nav-item {
+    background-color: var(--dark-branding-color);
+  }
+  ul.motto {
+    padding: 0 0 3em 0;
   }
 }
 

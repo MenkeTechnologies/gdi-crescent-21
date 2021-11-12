@@ -12,7 +12,11 @@ export default function BodyParts() {
 
   const handleClick = React.useCallback(({ muscle}: IMuscleStats) => {
     setClickableMuscle(`${muscle}`);
-    alert(`You clicked the ${muscle}! Scroll down to learn more!`)
+    if (`${muscle}` !== "triceps") {
+      alert(`You clicked the ${muscle}!`)
+    } else {
+      alert(`You clicked the ${muscle}! Let's learn more!`)
+    }
 
   }, [data]);
 
@@ -26,8 +30,8 @@ if (clickableMuscle === `triceps`) {
         <div className='BodyParts'>
           <div className="row">
           <div className="col-md-3">
-            <h2>No muscle left behind.</h2>
-              <ul className='motto'>
+            <h2 className="motto">No muscle left behind.</h2>
+              <ul className="motto">
                 <li>You have one body.</li>
                 <li>Crescent is for every body.</li>
                 <li>Train, Learn and Strengthen.</li>
