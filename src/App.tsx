@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <div className="container">
           <div className="row pt-5">
-            <div className="col-sm-3">
+            <div className="col-md-3">
               <img src={crescentlogo} alt="Crescent Logo" className="crescent-logo logo" />
             </div>
-            <div className="col-sm-9">
+            <div className="col-md-9">
             <Navbar />
             </div>
           </div>
