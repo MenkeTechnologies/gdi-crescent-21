@@ -31,7 +31,7 @@ export default function TricepsAnatomy () {
                         <img src={triceps} alt="A skeleton from the back with tricep muscles highlighted." className="img-fluid"></img>
                     </div>
                 </div>
-                <div className="row pt-5">
+                <div className="row pb-5">
                     <div className="col-sm-12">
                         <h2>STRENGTHEN🏋️‍♀️</h2>
                         <h3>TRICEP DIP</h3>
