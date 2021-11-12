@@ -15,6 +15,23 @@ body {
   background-color: var(--white-branding-color);
 }
 
+.button {
+  color: var(--dark-branding-color);
+  background-color: var(--bright-branding-color);
+  padding: 1em;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--light-branding-color);
+}
+
+button {
+    margin-top: 2em;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -88,8 +105,19 @@ body{
 
 .crescent-logo {
   width: 60%;
+  margin: 0 3em;
   height: auto;
   float: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+.icon {
+  width: 20;
+  margin: auto;
+  display: block;
 }
 
 /* h2.motto {
