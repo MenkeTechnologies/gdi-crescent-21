@@ -9,7 +9,7 @@ body{
 }
 
 .leftSide, .rightSide {
-  background-color: var(--dark-branding-color);
+  background-color: var(--medium-branding-color);
 }
 
 .Navbar{
@@ -32,7 +32,7 @@ body{
 
 .Navbar .leftSide .links a {
   text-decoration: none;
-  color: white;
+  color: var(--dark-branding-color);
   font-size: 20px;
   margin: 0 3em;
   padding: 15px;
@@ -86,13 +86,14 @@ body{
 }
 
 h2.motto {
-  color: var(--medium-branding-color);
+  color: var(--dark-branding-color);
   font-size: 3em;
   text-transform: uppercase;
   padding: 3em 0 2em;
 }
 
 ul.motto {
+  color: var(--dark-branding-color);
   list-style-type: none;
   padding-left: 0;
   font-size: 1.3em;
@@ -116,7 +117,7 @@ ul.motto {
     margin-top: 5em;
   }
   li.nav-item {
-    background-color: var(--dark-branding-color);
+    background-color: var(--medium-branding-color);
   }
   ul.motto {
     padding: 0 0 3em 0;
@@ -131,7 +132,20 @@ svg polygon {
   fill: var(--black-branding-color) !important;
 }
 
-svg polygon:hover { fill: var(--medium-branding-color) !important; }
+svg polygon:hover { fill: var(--bright-branding-color) !important; }
+
+.button {
+  color: var(--dark-branding-color);
+  background-color: var(--bright-branding-color);
+  padding: 1em;
+  width: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--light-branding-color);
+}
 
 
 /* .App-logo {
