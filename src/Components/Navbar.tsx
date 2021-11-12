@@ -17,22 +17,23 @@ function Navbar() {
                                 <a className="nav-link" aria-current="page" href='/about.html'>ABOUT</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href='/muscle'>MUSCLE GROUPS</a>
+                                <a className="nav-link" href='/muscle'>ANATOMY</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href='body'>MY BODY</a>
+                                <a className="nav-link" href='body'>STRENGTHEN</a>
                                 </li>
                             </ul>
                             </div>
                         </div>
                     </nav>
                 </div>
-                <div className="rightSide">
-                    <input type='text' placeholder='Search...'/>
-                    <button>Search</button>
-                </div>
         </div>
     )
 }
+
+//<div className="rightSide">
+//<input type='text' placeholder='Search...'/>
+//<button>Search</button>
+//</div>
 
 export default Navbar;
