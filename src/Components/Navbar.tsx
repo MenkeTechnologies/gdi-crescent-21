@@ -17,10 +17,10 @@ function Navbar() {
                                 <a className="nav-link" href='/about.html'>ABOUT</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href='/muscle'>ANATOMY</a>
+                                <a className="nav-link" href='/muscle.html'>ANATOMY</a>
                                 </li>
                                 <li className="nav-item">
-                                <a className="nav-link" href='body'>STRENGTHEN</a>
+                                <a className="nav-link" href='/body.html'>STRENGTHEN</a>
                                 </li>
                             </ul>
                             </div>
